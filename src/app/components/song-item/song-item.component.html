@@ -1,0 +1,12 @@
+<ion-reorder slot="end">
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <ion-img [src]="song.imageUrl"></ion-img>
+    </ion-thumbnail>
+    <ion-label>
+      <h2 class="primary">{{ song.title }}</h2>
+      <h5 class="secondary">{{ song.group_name }}</h5>
+    </ion-label>
+    <ion-icon name="pizza" color="secondary"></ion-icon>
+  </ion-item>
+</ion-reorder>
